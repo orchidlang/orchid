@@ -1,0 +1,10 @@
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:bal="http://schemas.microsoft.com/wix/BalExtension">
+  <Bundle UpgradeCode="88ACBE0A-7718-4BE6-BDE2-BB5338F2C322" Compressed="yes" Manufacturer="Zohan Haque" Name="Orchid - Zohan Haque" Version="1.0.0.0" IconSourceFile="installer.ico">
+    <Chain>
+      <MsiPackage SourceFile="WixPieOutput\orchid.msi" />
+    </Chain>
+    <BootstrapperApplicationRef Id="WixStandardBootstrapperApplication.RtfLicense">
+      <bal:WixStandardBootstrapperApplication LicenseFile="license.rtf" LogoFile="logo.png" />
+    </BootstrapperApplicationRef>
+  </Bundle>
+</Wix>
