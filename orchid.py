@@ -72,8 +72,8 @@ class OrchidInterpreter:
         self.load_script(filename, silent=False)
 
     def load_script(self, filename, silent=False):
-        if not filename.endswith(".orc"):
-            filename += ".orc"
+        if not filename.endswith(".orchid"):
+            filename += ".orchid"
 
         try:
             if not os.path.exists(filename):
