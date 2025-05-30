@@ -172,7 +172,7 @@ class OrchidInterpreter:
             input()
 
     def run_shell(self):
-        print("Orchid 1.0 Copyright (c) Zohan Haque, All rights reserved")
+        print("Orchid 1.1 Copyright (c) Zohan Haque, All rights reserved")
         print("Welcome to the Orchid Shell!")
         while True:
             try:
